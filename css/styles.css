@@ -1,0 +1,597 @@
+@font-face {
+  font-family: Raleway;
+  src: url(Fonts/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Engraver;
+  src: url(../Fonts/Engravers\ Old\ English\ Normal.ttf);
+}
+@font-face {
+  font-family: Sudesta;
+  src: url(../Fonts/Sudestada.ttf);
+}
+@font-face {
+  font-family: FromWhere;
+  src: url(../Fonts/FromWhereYouAre.ttf);
+}
+@font-face {
+  font-family: soulmate;
+  src: url(../Fonts/Soulmate.ttf);
+}
+nav {
+  font-family: "Raleway";
+}
+
+@media (max-width: 992px) {
+  nav ul li {
+    width: 100%;
+  }
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-family: raleway;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/raleway.ttf);
+}
+@font-face {
+  font-family: Engraver;
+  src: url(../fonts/engravers.ttf);
+}
+@font-face {
+  font-family: Sudesta;
+  src: url(../fonts/sudestada.ttf);
+}
+@font-face {
+  font-family: FromWhere;
+  src: url(../fonts/fromwhere.ttf);
+}
+@font-face {
+  font-family: soulmate;
+  src: url(../fonts/soulmate.ttf);
+}
+h1 {
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 600;
+  padding: 1rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  background-color: #ffd9e9;
+}
+h1 a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Raleway";
+  font-size: 40px;
+  text-align: center;
+  line-height: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 0 !important;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 50px;
+  font-family: "Raleway";
+}
+
+.textonormal {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Raleway";
+  line-height: 35px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.whois {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+h4 {
+  text-align: center;
+  font-size: 30px;
+  margin: 100px 40px 0px 100px;
+  font-family: "Raleway";
+}
+
+h5 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Raleway";
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+/* INICIO FORMULARIO */
+.g-3 {
+  margin: 0rem 3rem 3rem 3rem;
+}
+
+.btn-primary {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+}
+
+.tipo {
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.h11989 {
+  background-color: #B8BFE2;
+}
+.h11989 a {
+  color: #000;
+}
+
+.h1reputation {
+  background-color: #000;
+}
+.h1reputation a {
+  color: #fff;
+}
+
+.h1speaknow {
+  background-color: #8e3b72;
+}
+.h1speaknow a {
+  color: #fff;
+}
+
+.h1lover a {
+  color: #000;
+}
+
+/* INICIO INDEX */
+/* INICIO  GRID CONTAINER  WW AWARD WINNING*/
+.galeria {
+  background-color: #fff;
+  padding-bottom: 1%;
+}
+
+.award1 {
+  border-radius: 15%;
+  padding: 5%;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.awardtext {
+  font-family: "Raleway";
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* FIN GRID CONTAINER  WW AWARD WINNING*/
+/* INICIO CONTAINER KARMA */
+.look {
+  grid-area: look;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .look {
+    grid-area: look;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10%;
+  }
+}
+/* FINCONTAINER  KARMA */
+/* FIN INDEX */
+.backreputation {
+  background-image: linear-gradient(#fff, #000);
+}
+
+/* INICIO LAS ERAS */
+.backindex {
+  background-image: linear-gradient(white, #ffd9e9);
+}
+
+.backlover {
+  background-image: linear-gradient(#fff, #ffd9e9);
+}
+
+.backspeaknow {
+  background-image: linear-gradient(#fff, #8e3b72);
+}
+
+.backt1989 {
+  background-image: linear-gradient(#fff, #B8BFE2);
+}
+
+.ttlover {
+  font-family: "Soulmate";
+}
+
+.ttreputation {
+  font-family: "Engraver";
+}
+
+.ttspeaknow {
+  font-family: "Sudesta";
+}
+
+.tt1989 {
+  font-family: "Fromwhere";
+}
+
+/* INICIO ESTILOS TITULOS DE ERAS*/
+.ttlover {
+  font-size: 70px;
+  color: #ffd9e9;
+  margin-top: 2rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.ttreputation {
+  font-size: 90px;
+  padding-top: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.h1reputation {
+  background-color: #000;
+  color: #fff !important;
+}
+
+.ttspeaknow {
+  font-weight: bold;
+  padding-top: 3rem;
+  font-size: 90px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #8e3b72;
+  text-align: center;
+}
+
+.tt1989 {
+  font-size: 80px;
+  padding-top: 30px;
+  color: #B8BFE2;
+  text-align: center;
+}
+
+/* FIN ESTILOS TITULOS DE ERAS*/
+.containervideo {
+  height: 400px;
+  display: grid;
+  grid-template-areas: "textovideo video";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 5% 10% 2% 10%;
+  align-items: center;
+  justify-items: center;
+  -moz-column-gap: 3%;
+       column-gap: 3%;
+}
+
+.textovideo {
+  grid-area: textovideo;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Raleway";
+  font-size: 20px;
+  padding-bottom: 5%;
+}
+
+.textotopsongs {
+  line-height: 3rem;
+  list-style: none;
+  font-family: raleway;
+  text-align: center;
+  font-size: 25px;
+  padding-left: 0;
+}
+
+.video {
+  grid-area: video;
+  align-self: center;
+  overflow: visible;
+}
+
+.galeriatopsongs {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.galerialistenat {
+  margin-bottom: 5%;
+}
+
+.appleplay {
+  margin-bottom: 10%;
+}
+
+.spotifyplay {
+  margin-bottom: 10%;
+}
+
+.pic {
+  border-radius: 10%;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+}
+
+.wheretolisten {
+  padding: 2rem 1rem 0rem 1rem;
+}
+
+/* FIN LAS ERAS */
+/* INICIO INDEX */
+/* INICIO  GRID CONTAINER  WW AWARD WINNING*/
+.galeria {
+  background-color: #fff;
+  padding-bottom: 1%;
+}
+
+.award1 {
+  border-radius: 15%;
+  padding: 5%;
+}
+
+.awardtext {
+  font-family: "Raleway";
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* FIN GRID CONTAINER  WW AWARD WINNING*/
+/* INICIO CONTAINER KARMA */
+.look {
+  grid-area: look;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+.karmats {
+  height: 100%;
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+@media (max-width: 600px) {
+  .look {
+    grid-area: look;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10%;
+  }
+}
+/* FINCONTAINER  KARMA */
+/* FIN INDEX */
+/* INICIO SWIFTIE STARTER PACK */
+.stpk1 {
+  background-color: #fff;
+  padding-left: 1rem;
+}
+
+.knowblog {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.row img {
+  justify-content: center;
+}
+
+.fotoblog {
+  border-radius: 50%;
+  height: auto;
+  justify-items: center;
+  margin: auto;
+  align-content: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: grid;
+  margin-bottom: 15px;
+}
+
+.titleblog {
+  padding-top: 25px;
+  font-size: 30px;
+}
+
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.blogtext {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+/* FIN SWIFTIE STARTER PACK */
+/* MAX 600PX */
+@media (max-width: 600px) {
+  .ttspeaknow {
+    font-size: 40px;
+  }
+  .ttreputation {
+    font-size: 40px;
+  }
+  .ttlover {
+    font-size: 40px;
+  }
+  .tt1989 {
+    font-size: 40px;
+  }
+  #lists {
+    list-style: circle;
+    align-items: center;
+  }
+  .videoentrada {
+    display: inline-block;
+  }
+  .titulo1 {
+    font-size: 25px;
+  }
+  .textonormal {
+    font-size: 18px;
+  }
+}
+.img-fluid {
+  width: auto;
+}
+
+/* karma block */
+.bloquekarma {
+  height: 400px;
+  display: flex;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/*INICIO SWIFTIE STARTER PACK*/
+@media (min-width: 600px) and (max-width: 1000px) {
+  .videoentrada {
+    display: inline-block;
+  }
+  .titulo1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .textonormal {
+    font-size: 20px;
+    line-height: 50px;
+  }
+  .look {
+    grid-area: look;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10%;
+  }
+  .karmatitle {
+    grid-area: karmatitle;
+    font-family: raleway;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .textotopsongs {
+    list-style: none;
+    font-family: raleway;
+    text-align: center;
+    font-size: 20px;
+  }
+  .ttspeaknow {
+    font-size: 70px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .ttlover {
+    font-size: 70px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .ttreputation {
+    font-size: 70px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .tt1989 {
+    font-size: 70px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 1000px) {
+  .containervideo {
+    display: grid;
+    height: 600px;
+    grid-template-areas: "textovideo" "video";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+  }
+  .textovideo {
+    grid-area: textovideo;
+    font-size: 15px;
+  }
+  .video {
+    grid-area: video;
+  }
+}
+@media (max-width: 600px) {
+  .containervideo {
+    display: grid;
+    height: 450px;
+    grid-template-areas: "textovideo" "video";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+  }
+  .textovideo {
+    grid-area: textovideo;
+    font-size: 15px;
+  }
+  .video {
+    grid-area: video;
+  }
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,10 @@
+
+nav {
+    font-family: $font-principal;
+}
+
+@media (max-width: 992px) {
+  nav ul li {
+    width: 100%;
+  }
+}
